@@ -2,19 +2,21 @@
 <html>
 <head>
 	<title>Connexion Page</title>
-	<link rel="stylesheet" type="text/css" href="FormDesign.css">
+  <link rel="stylesheet" type="text/css" href="FormDesign.css">
+<script src="../scripts/main.js">
+</script>
  
  </head>
 <body>
 <div>
-  <form id="form">
+  <form id="id_form">
     <label for="fname">User name</label>
-    <input type="text" id="fname" name="username" placeholder="Your name..">
+    <input type="text" id="id_user" name="username" placeholder="Your name..">
 
     <label for="lname">Password</label>
-    <input type="password" id="lname" name="password" placeholder="Your password..">  
-    <input type="submit" value="Connexion">
-     <input type="submit" value="Cancel">
+    <input type="password" id="id_pass" name="password" placeholder="Your password..">  
+    <input type="button" onclick="connexion()" value="Connexion">
+     <input type="button" value="Cancel">
   </form>
 </div>
 
