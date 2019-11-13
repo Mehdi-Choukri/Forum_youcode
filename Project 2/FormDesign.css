@@ -1,5 +1,6 @@
 body {
-  background-image: url(wp2848515.jpg);
+  background-image: url(code.gif);
+  background-size: cover;
 }
 form {
   display: inline-block;
@@ -8,6 +9,8 @@ form {
 }
 label {
   color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 input[type=text], select {
   width: 100%;
@@ -27,9 +30,9 @@ input[type=password], select {
   border-radius: 4px;
   box-sizing: border-box;
   }
-input[type=submit] {
+input[type=button] {
   width: 100%;
-  background-color: grey;
+  background-color: #0174C8;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -37,7 +40,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-input[type=submit]:hover {
-  background-color: black;
+input[type=button]:hover {
+  background-color: #004577;
 }
 
