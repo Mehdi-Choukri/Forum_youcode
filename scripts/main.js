@@ -1,13 +1,38 @@
-function connexion (user,pw)
+
+
+
+function connexion ()
 {
+    
+   
+    let user = document.getElementById('id_user');
+    let pw = document.getElementById('id_pass') ;
+
+
+
+
     let test_user = ['test','youcode'] ;
+    
 
-    let test_pw = ['youcode','test'];
+    let test_pw = ['test','youcode'];
+    
 
-    if(user===test_user[0] && pw===test_pw[1] || ser===test_user[1] && pw===test_pw[0] )
+    if((user.value===test_user[0] && pw.value===test_pw[1]) || (user.value===test_user[1] && pw.value===test_pw[0]) )
     {
-        alert("Bienvenue ");
-        window.location.replace("acceuil.html");
+        alert("Bienvenue  "+user.value);
+       window.location.replace("acceuil.html");
     }
+    else
+    {
+        alert("User ou mot de passe incorrect")
+    }
+    
 
+}
+
+function ajoutReponse()
+{
+    var text = document.getElementById("").value ;
+
+    document.getElementById("").innerHTML=text;
 }
