@@ -30,6 +30,11 @@ function connexion ()
 
 }
 
+function redirection_post()
+{
+    window.location.replace("../form_msg/projet.html");
+}
+
 function ajoutReponse()
 {
     var text = document.getElementById("").value ;
