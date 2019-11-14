@@ -74,3 +74,10 @@ a {
         background-color:#D3D3D3;
         border-color:#696969 #DCDCDC #DCDCDC #696969;
         } 
+
+        .footer{
+            margin-top: 190px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+        }
