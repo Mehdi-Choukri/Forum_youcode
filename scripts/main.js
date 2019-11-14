@@ -45,6 +45,6 @@ function ajoutReponse()
 
     document.getElementById("id_date").innerHTML="Envoyer par Youcode le : "+Date().toLocaleString();
 
-    document.getElementById("post_msg").innerHTML =" <a href='#code'>"+text+"</a><br>Discussion : <br> "+Discussion;
+    document.getElementById("post_msg").innerHTML +=" <a href='#code'>"+text+"</a><br>Discussion : <br> "+Discussion+"<br>";
   
 }
