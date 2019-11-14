@@ -48,3 +48,36 @@ function ajoutReponse()
     document.getElementById("post_msg").innerHTML +=" <a href='#code'>"+text+"</a><br>Discussion : <br> "+Discussion+"<br>";
   
 }
+
+//fonction qui genere un coleur aleatoire !
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+   
+    return color;
+
+  }
+  function annuler()
+  {
+    document.getElementById('id_user').value="";
+     document.getElementById('id_pass').value="" ;
+  }
+  
+  
+  
+  function setRandomColor() {
+    $("#reponse").css("color", getRandomColor());
+  }
+  function ajouter_reponse()
+  {
+    new Date().toLocaleString() ;
+   
+    
+    var text = document.getElementById("id_txtarea").value ;
+    document.getElementById("id_rep").innerHTML +="<br>"+Date().toLocaleString() +" : "+text;
+
+
+  }
