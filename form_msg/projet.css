@@ -39,3 +39,12 @@ body{
     font-size:50px;
     font-weight: bold;
 }
+#post_msg a 
+{
+color : white ;
+}
+#id_date 
+{
+   
+    font-size: 20px;
+}

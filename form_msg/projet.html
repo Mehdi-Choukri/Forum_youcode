@@ -12,16 +12,19 @@
             <br>
             <form class="su">
                    
-        <input type="text" name="sujet"  class="text1"> 
+        <input type="text" name="sujet" id="id_msg" class="text1"> 
  
     </div>
     <br>
     <div>
-<textarea rows="10" placeholder="saisir votre probleme" cols="90"></textarea>
+<textarea rows="10" id="id_discussion" placeholder="saisir votre probleme" cols="90"></textarea>
+<input type="button" name="envoyer" onclick="ajoutReponse()" value="Envoyer"class ="but" />
+
 </div>
-<div >
-<input type="button" name="envoyer" value="Evoyer"class ="but" onclick="envoyer"/>
+<div class="reponse_msg">
+   <span id ="id_date"></span> <p id="post_msg"></p>
 </div>
+
 </div>
 
 

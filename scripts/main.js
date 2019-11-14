@@ -37,7 +37,14 @@ function redirection_post()
 
 function ajoutReponse()
 {
-    var text = document.getElementById("").value ;
+    new Date().toLocaleString() ;
+   
+    
+    var text = document.getElementById("id_msg").value ;
+    var Discussion = document.getElementById("id_discussion").value;
 
-    document.getElementById("").innerHTML=text;
+    document.getElementById("id_date").innerHTML="Envoyer par Youcode le : "+Date().toLocaleString();
+
+    document.getElementById("post_msg").innerHTML =" <a href='#code'>"+text+"</a><br>Discussion : <br> "+Discussion;
+  
 }
