@@ -20,7 +20,7 @@ function connexion ()
     if((user.value===test_user[0] && pw.value===test_pw[1]) || (user.value===test_user[1] && pw.value===test_pw[0]) )
     {
         alert("Bienvenue  "+user.value);
-       window.location.replace("../Accueil/Accueil.html");
+       window.location.replace("../Accueil1/Accueil.html");
     }
     else
     {
